@@ -11,7 +11,8 @@ I know that I will succeed because I have the necessary skills for this:
 **Skills**: HTML, CSS, Javascript
 
 **Code example**:
-```<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
