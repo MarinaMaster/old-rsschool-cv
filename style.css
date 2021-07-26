@@ -1,129 +1,226 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-  font-family: 'Roboto', sans-serif;
-  margin:0;
-padding:0;
-box-sizing:border-box;
-list-style:none;
+html {
+  background: rgb(86, 103, 139);
+  scroll-behavior: smooth;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trattatello", sans-serif;
+  font-size: 20px;
+  color: rgb(250, 250, 250);
+}
 body {
-  background:#8bacbd;
-  font-size:18px;
-  line-height:20px;
+  background-color: rgb(86, 103, 139) ff;
 }
-.resume_wrapper {
+.container {
   display: flex;
-  width:800px;
-  
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
 }
 
-.resume_left {
-  width:50%;
-  height:800px;
-  float:left
-}
-.resume_wrapper .resume_left {
-width:45%;
-background:#8bacbd url(https://kartinkin.com/uploads/posts/2020-07/1593700479_41-p-zelenii-krasivii-fon-46.jpg);
-padding-left:15px;
-padding-top:20px
+header {
+  display: flex;
+  background-color: rgb(86, 103, 139);
 }
 
-
-.resume_wrapper .resume_left {
-width:100%;
-display:block;
-overflow:scroll;
+.profile_photo {
+  width: 300px;
 }
 
-.resume_wrapper .resume_left .resume_title{
- color:#fff;
- text-shadow: 0 0 15px #ddf128, 0 0 15px #ddf128, 0 0 15px #ddf128;
-
- text-transform:uppercase; 
- font-weight: bold;
- font-size:16px;
- margin-bottom:10px;
- letter-spacing:4px;
- border-left:2px solid #ccc;
- padding: 10px;
+.resume_name {
+  position: relative;
+  flex-grow: 1;
+  align-self: center;
+  text-align: center;
+  animation: running-header 1s ease-out;
 }
- .resume_wrapper .resume_right .resume_title{
-  color:#fa9581;
-  text-transform:uppercase; 
+
+@keyframes running-header {
+  from {
+    left: -600px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.lang_lvl {
+  margin: 15px 0;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang_lvl > div {
+  font-size: 1.6rem;
+}
+
+.resume_name h1,
+h2 {
+  font-family: "Questrial", sans-serif;
+  color: rgb(245, 208, 43);
+}
+
+.resume_name > h1 {
+  font-size: 90px;
+}
+
+.resume_name > h2 {
+  font-size: 35px;
+}
+
+main {
+  display: flex;
+}
+
+.resume_main {
+  flex-grow: 1;
+  padding: 10px 30px 60px;
+  background-color: rgb(32, 40, 41);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.about-me {
+  margin: 15px 0;
+}
+
+.about-me > p {
+  margin: 10px 0;
+}
+.section_one {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 10px 0;
+  padding: 20px 0;
+  color: rgb(7, 37, 6);
+  border-bottom: 2px solid rgb(253, 253, 253);
+}
+.section_one > h3 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.list {
+  margin: 15px 0;
+}
+.list > p {
+  margin: 10px 0;
+  list-style: none;
+}
+
+aside {
+  min-width: 240px;
+  padding: 10px 30px 60px;
+  border-top-right-radius: 3px;
+  background-color: #000;
+}
+
+.aside-list > li {
+  margin: 15px 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.contacts-list > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+  text-align: right;
+}
+
+.contacts-list > li > i {
+  position: relative;
+  top: 3px;
+}
+
+.discord-icon {
+  left: 1px;
+}
+
+.skills-list {
   font-weight: bold;
-  font-size:18px;
-  margin-bottom:10px;
-  letter-spacing:4px;
-  border-left:2px solid #ccc;
-  padding: 10px;
- 
 }
 
-.resume_wrapper .resume_right .resume_info {
-  color:#41372e;
-  font-family: 18px Arial sans-serif;
+.scale {
+  width: 100%;
+  height: 10px;
+  margin-top: 5px;
+  background-color: rgb(224, 81, 105);
 }
 
-.resume_wrapper .resume_left .resume_bottom {
-  padding:20px 30px;
+.scale span {
+  display: block;
+  height: 100%;
 }
 
-.resume_image {
-  padding-left:25px;
+#html-skill {
+  width: 50%;
 }
 
-.resume_right {
-  position:fixed;
-  right:0;
-  top:0;
-  width:80%;
-  height:100%;
-  background:#eaeaea url(https://oir.mobi/uploads/posts/2021-01/1611935351_45-p-zelenii-fon-vektor-49.jpg);
-  color:#8bacbd;
+#css-skill {
+  width: 50%;
 }
 
-.resume_wrapper .resume_namerole .name {
-  font-size:20px;
-  color:#fff;
-  text-transform:uppercase;
-  font-weight:bold;
-  margin-bottom:5px;
-  letter-spacing:4px;
+#js-skill {
+  width: 30%;
 }
 
-.resume_wrapper .resume_left .resume_contact .resume_info {
-  margin-top:10px;
-}
-.resume_wrapper .resume_left .resume_contact .resume_subtitle {
-color: black;
-margin-bottom:2px;
+.scale-filling {
+  background-color: rgb(241, 119, 6);
+  animation: filling 1s ease;
 }
 
-.resume_wrapper .resume_right {
-  width:75%;
-  padding:20px 40px;
-  overflow:auto;
-}
-.resume_wrapper .resume_right .resume_namerole .name {
-color:#26252d;
-font-size:32px;
-}
-
-.resume_wrapper .resume_right .resume_namerole .role {
-font-size:16px;
-text-transform:uppercase;
+@keyframes filling {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 
-.resume_wrapper .resume_right .resume_item .resume_title {
-  color:#fa9581;
-}
-
-.resume_wrapper .resume_right .resume_profile .resume_info {
+footer {
   display: flex;
-  justify-content:space-between;
-  text-align:center;
-  color: #26252d;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(245, 208, 43);
 }
 
+.year {
+  width: 100px;
+  text-align: center;
+  font-size: 37px;
+  line-height: 37px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-git > a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-git > a > i {
+  margin-right: 10px;
+  color: black;
+  font-size: 50px;
+}
+
+.footer-rss > a > img {
+  width: 100px;
+  position: relative;
+  top: 3px;
+}
