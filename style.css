@@ -1,226 +1,129 @@
-html {
-  background: rgb(86, 103, 139);
-  scroll-behavior: smooth;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Trattatello", sans-serif;
-  font-size: 20px;
-  color: rgb(250, 250, 250);
-}
-body {
-  background-color: rgb(86, 103, 139) ff;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  margin: auto;
-}
-
-header {
-  display: flex;
-  background-color: rgb(86, 103, 139);
-}
-
-.profile_photo {
-  width: 300px;
-}
-
-.resume_name {
-  position: relative;
-  flex-grow: 1;
-  align-self: center;
-  text-align: center;
-  animation: running-header 1s ease-out;
-}
-
-@keyframes running-header {
-  from {
-    left: -600px;
-    opacity: 0;
+body{
+  margin:0;
+  overflow:auto;
+  overflow-x:hidden;
+  
   }
-  to {
-    left: 0;
-    opacity: 1;
+  .overview {
+    background-color:#e7e7e7;
+    width:1357px;
+    height:260px;
+    
   }
-}
-
-.lang_lvl {
-  margin: 15px 0;
-  text-align: center;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.lang_lvl > div {
-  font-size: 1.6rem;
-}
-
-.resume_name h1,
-h2 {
-  font-family: "Questrial", sans-serif;
-  color: rgb(245, 208, 43);
-}
-
-.resume_name > h1 {
-  font-size: 90px;
-}
-
-.resume_name > h2 {
-  font-size: 35px;
-}
-
-main {
-  display: flex;
-}
-
-.resume_main {
-  flex-grow: 1;
-  padding: 10px 30px 60px;
-  background-color: rgb(32, 40, 41);
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-
-.about-me {
-  margin: 15px 0;
-}
-
-.about-me > p {
-  margin: 10px 0;
-}
-.section_one {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  margin: 10px 0;
-  padding: 20px 0;
-  color: rgb(7, 37, 6);
-  border-bottom: 2px solid rgb(253, 253, 253);
-}
-.section_one > h3 {
-  font-size: 32px;
-  font-weight: 400;
-  margin: 5px 0;
-}
-
-.list {
-  margin: 15px 0;
-}
-.list > p {
-  margin: 10px 0;
-  list-style: none;
-}
-
-aside {
-  min-width: 240px;
-  padding: 10px 30px 60px;
-  border-top-right-radius: 3px;
-  background-color: #000;
-}
-
-.aside-list > li {
-  margin: 15px 0;
-  list-style: none;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.contacts-list > li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 20px 0;
-  text-align: right;
-}
-
-.contacts-list > li > i {
-  position: relative;
-  top: 3px;
-}
-
-.discord-icon {
-  left: 1px;
-}
-
-.skills-list {
-  font-weight: bold;
-}
-
-.scale {
-  width: 100%;
-  height: 10px;
-  margin-top: 5px;
-  background-color: rgb(224, 81, 105);
-}
-
-.scale span {
-  display: block;
-  height: 100%;
-}
-
-#html-skill {
-  width: 50%;
-}
-
-#css-skill {
-  width: 50%;
-}
-
-#js-skill {
-  width: 30%;
-}
-
-.scale-filling {
-  background-color: rgb(241, 119, 6);
-  animation: filling 1s ease;
-}
-
-@keyframes filling {
-  from {
-    width: 0%;
+  
+  .container {
+    background-color:fff;
+    width:999px;
+    height:802px;
+    position:absolute;
+    left:357px;
+    top:260px;
+    padding-left:20px;
+    padding-top:10px;
+    max-width: 850px;
+    max-height: 750px;
   }
-  to {
-    width: 100%;
-  }
+
+.left {
+  background-color: #333;
+  width:350px;
+height:802px;
+padding-left:20px;
+padding-top:10px;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: rgb(245, 208, 43);
+.footer{
+  background-color:#e7e7e7;
+  width:1357px;
+height:110px;
+
+}
+
+.icon2 {
+  width:20px;
+  height:20px;
 }
 
 .year {
-  width: 100px;
-  text-align: center;
-  font-size: 37px;
-  line-height: 37px;
-  font-weight: bold;
-  color: black;
-}
-
-.footer-git > a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.footer-git > a > i {
-  margin-right: 10px;
-  color: black;
+  position:absolute;
+  left: 650px;
+ top:1040px;
   font-size: 50px;
+  
 }
 
-.footer-rss > a > img {
-  width: 100px;
-  position: relative;
-  top: 3px;
+.myphoto{
+  position:absolute;
+  left:1000px; 
 }
+.name{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color:#333;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 80px;
+    
+    position:absolute;
+    left:300px;
+}
+
+.proff{
+  font-family:DejaVu Sans Mono, monospace;
+  color:rgb(26, 26, 26);
+  position:absolute;
+    left:500px;
+    top:150px;
+}
+
+.linename {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  padding-left:20px;
+  color:#333;
+}
+.linename:hover {
+  color: #000000; /* Цвет ссылки при наведении */ 
+  text-decoration: none; /* Добавляем подчёркивание */
+ }
+
+.linename2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  padding-left:20px;
+  color:#bbbe13;
+}
+.linename2:hover {
+  color: #fbff07; /* Цвет ссылки при наведении */ 
+  text-decoration: none; /* Добавляем подчёркивание */
+ }
+
+.text {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+}
+
+.text2 {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  color:#e7e7e7;
+}
+
+.icon2 {
+  position:absolute;
+    left:1200px;
+}
+
+
+.mail{
+    color: #e7e7e7; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+   }
+  
+   .mail:hover {
+    color: #fb3605; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+   }
+   .ground{
+     background-color:rgb(233, 223, 223);
+     width:300px;
+   }
