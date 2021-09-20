@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Marina's CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="libs/atelier-forest-light.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <main>
+        <div class='card card__main-card'>
+            <div class="main-card__contact-info">
+                <img alt='me' src="images/me.png" class='main-card__photo'/>
+                <a href="tel:+77086655742"><img alt="phone-number" src="images/telephone.png" class="icon"/>+7 (708) 665-57-42</a>
+                <a href="mailto:master777marina@mail.ru"><img alt="email" src="images/email.png" class="icon"/>master777marina@mail.ru</a>
+            </div>
+            <div class="main-card__info">
+                <p class="main-card__info__title">HI I'M <span class="main-card__info__name">MARINA MYSSAK</span></p>
+                <p class="main-card__info__job-title">front-end developer</p>
+                <p class="main-card__info__about">My goal is to become a successful front-end developer. RS school is the first step towards my dream.</p>
+                <p class="main-card__info__about">I know that I will succeed because I have the necessary skills for this:</p>
+                <ul>
+                    <li>hard working and willpower</li>
+                    <li>teamwork skills and creativity</li>
+                    <li>resourcefulness and savvy</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card__edu-card">
+            <div class="edu-card__block">
+                <p class="card__title">Skills</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+            <div class="edu-card__block">
+                <p class="card__title">Education</p>
+                <ul>
+                    <li>Bachelor of Education</li>
+                    <li>Master of Education (in proccess)</li>
+                </ul>
+            </div>
+            <div class="edu-card__block">
+                <p class="card__title">English level</p>
+                <p>Intermediate</p>
+            </div>
+        </div>
+
+        <div class="card card__code-example">
+            <p class="card__title">Code example</p>
+            <pre><code>const finalGrade = (x, y) => {
+    if (x >= 90 || y >= 10) {
+        return 100;
+    }
+
+    if (x > 75 && y >= 5) {
+        return 90;
+    }
+
+    if ( x >= 50 && y >= 2){
+        return 75;
+    }
+
+    return 0;
+}</code></pre>
+        </div>
+    </main>
+
+    <footer class="card card__footer">
+        <a class="icon1" href="https://app.rs.school/profile">
+            <img alt="rsschool" src="https://images.opencollective.com/rsschool/c60db11/background.png" width="100" >
+        </a>
+        <p class="year">2021</p>
+        <a class="icon2" href="https://github.com/MarinaMaster">
+            <img alt="github" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" width="100" >
+        </a>
+    </footer>
+
+    <script src="libs/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
