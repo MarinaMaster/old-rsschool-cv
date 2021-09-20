@@ -1,0 +1,137 @@
+h1,
+h2,
+p {
+    margin: 0
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.overview {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e7e7;
+    height: 260px;
+}
+
+.my-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.name {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #333;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 80px;
+}
+
+.job-title {
+    font-family: DejaVu Sans Mono, monospace;
+    color: rgb(26, 26, 26);
+}
+
+.myphoto {
+    position: absolute;
+    right: 64px;
+    z-index: 1;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+sidebar {
+    background-color: #333;
+    width: 380px;
+    padding: 0 24px;
+}
+
+.sidebar-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: #bbbe13;
+    margin: 24px 0;
+}
+
+.sidebar-title:hover {
+    /* Цвет ссылки при наведении */
+    color: #fbff07;
+    /* Добавляем подчёркивание */
+    text-decoration: none;
+}
+
+.sidebar-text {
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    color: #e7e7e7;
+    padding-left: 24px;
+}
+
+.contact-info {
+    /* Цвет обычной ссылки */
+    color: #e7e7e7;
+    /* Убираем подчёркивание у ссылок */
+    text-decoration: none;
+}
+
+.contact-info:hover {
+    /* Цвет ссылки при наведении */
+    color: #fb3605;
+    /* Добавляем подчёркивание */
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0 24px 24px;
+}
+
+.container-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: #333;
+    margin: 24px 0;
+}
+
+.container-title:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container-text {
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e7e7e7;
+    height: 110px;
+}
+
+.year {
+    font-size: 50px;
+}
+
+.ground {
+    padding: 8px 36px;
+    background-color: rgb(233, 223, 223);
+    width: fit-content;
+}
