@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./fonts.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musuem</title>
+  </head>
+  <body>
+    <header>
+      <div class="header container">
+        <div class="header__logo">
+          <img src="assets/svg/Logo.svg" alt="logo" class="logo" />
+          <p>LOUVRE</p>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#visiting">Visiting</a>
+            </li>
+            <li>
+              <a href="#explore">Explore</a>
+            </li>
+            <li>
+              <a href="#video">Video</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#">Tickets</a>
+            </li>
+            <li>
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="welcome">
+      <div class="container welcome__section">
+        <div class="welcome__content">
+          <div class="welcome__heading">
+            <h1>Welcome<br />to the louvre</h1>
+            <p>From the castle to the museum</p>
+            <a href="#" class="welcome__btn">Discover the Louvre</a>
+          </div>
+          <img
+            src="./assets/img/1.jpg"
+            alt="Mona lisa"
+            class="welcome__image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="visiting" class="virtual-tour">
+      <div class="container">
+        <h2 class="top__title" id="top">Virtual tour</h2>
+        <div class="top__cards">
+          <div class="top__card">
+            <div class="top__card-pic">
+              <img
+                src="assets/img/Denon wing .jpg"
+                alt="Danon Wing"
+                calass="top-card-thumb"
+              />
+            </div>
+            <h3 class="top__card-name">Royal Palace</h3>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+
+          <!--вторая картинка-->
+          <div class="top__card">
+            <div class="top__card-pic">
+              <img
+                src="assets/img/Royal polas.jpg"
+                alt="Royal Polace"
+                calass="top-card-thumb"
+              />
+            </div>
+            <h3 class="top__card-name">Danon Wing</h3>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <!--конец второй-->
+
+          <!--третья картинка-->
+          <div class="top__card">
+            <div class="top__card-pic">
+              <img
+                src="assets/img/Colonnade.jpg"
+                alt="Colonnade perrault"
+                calass="top-card-thumb"
+              />
+            </div>
+            <h3 class="top__card-name">Colonnade perrault</h3>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <!--конец третьей-->
+
+          <!--четвёртая картинка-->
+          <div class="top__card">
+            <div class="top__card-pic">
+              <img
+                src="assets/img/Greek hall.jpg"
+                alt="Greek Hall"
+                calass="top-card-thumb"
+              />
+            </div>
+            <h3 class="top__card-name">Greek Hall</h3>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <!--конец четвёртой-->
+
+          <!--пятая картинка-->
+          <div class="top__card">
+            <div class="top__card-pic">
+              <img
+                src="assets/img/Mona Lisa.jpg"
+                alt="Mona Lisa"
+                calass="top-card-thumb"
+              />
+            </div>
+            <h3 class="top__card-name">Mona Lisa</h3>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <!--конец пятой-->
+
+          <!--шестая картинка-->
+          <div class="top__card">
+            <div class="top__card-pic">
+              <img
+                src="assets/img/Night Palace.jpg"
+                alt="Night Palace"
+                calass="top-card-thumb"
+              />
+            </div>
+            <h3 class="top__card-name">Night Palace</h3>
+            <p>360° Virtual Tour</p>
+            <p>Google Street Panorama View</p>
+          </div>
+          <!--конец шестой-->
+        </div>
+      </div>
+    </section>
+
+    <section id="explore" class="explore">
+      <div class="container explore__section">
+        <div class="explore__content">
+          <h2 class="explore__title">Picture explore</h2>
+          <p>
+            Las Meninas is a 1656 painting by Diego Velázquez, the leading<br />artist
+            of the Spanish Golden Age.
+          </p>
+          <p>
+            It was cleaned in 1984 to remove a <span>"yellow veil"</span> of
+            dust that had gathered since the previous restoration in the 19th
+            century.
+          </p>
+          <p>
+            The cleaning provoked furious protests, not because the picture had
+            been damaged in any way, but because it looked different.
+          </p>
+        </div>
+        <img
+          src="../museum/assets/img/Sectiontwo-after.jpg"
+          alt="Las Meninas"
+        />
+      </div>
+    </section>
+
+    <!-- четвёртая секция-->
+    <section id="video" class="video">
+      <div class="container video__section">
+        <div class="video__content">
+          <h2 class="title__video">Video journey</h2>
+          <p>
+            Enter and visit one of the most famous museums in the world and
+            enjoy masterpieces such as Mona Lisa or Hammurabi's Code
+          </p>
+        </div>
+        <iframe
+          src="https://www.youtube.com/embed/zp1BXPX8jcU"
+          class="video__main"
+        ></iframe>
+        <div class="video__grid">
+          <iframe
+            src="https://www.youtube.com/embed/Vi5D6FKhRmo"
+            class="video__addition"
+          ></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/NOhDysLnTvY"
+            class="video__addition"
+          ></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/aWmJ5DgyWPI"
+            class="video__addition"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- пятая секция-->
+
+    <section id="gallery" class="gallery">
+      <div class="container gallery__section">
+        <h2 class="gallery__title">Art Gallery</h2>
+        <div class="container gallery__blocks">
+          <div class="gallery__block">
+            <img
+              alt="galery 1"
+              width="456"
+              height="570"
+              src="./assets/img/gallery/galery-1.jpg"
+            />
+            <img
+              alt="galery 4"
+              width="456"
+              height="570"
+              src="./assets/img/gallery/galery-4.jpg"
+            />
+            <img
+              alt="galery 7"
+              width="456"
+              height="456"
+              src="./assets/img/gallery/galery-7.jpg"
+            />
+            <img
+              alt="galery 10"
+              width="456"
+              height="242"
+              src="./assets/img/gallery/galery-10 (2).jpg"
+            />
+          </div>
+          <div class="gallery__block">
+            <img
+              alt="galery 2"
+              width="456"
+              height="456"
+              src="./assets/img/gallery/galery-2.jpg"
+            />
+            <img
+              alt="galery 5"
+              width="456"
+              height="570"
+              src="./assets/img/gallery/galery-5.jpg"
+            />
+            <img
+              alt="galery 8"
+              width="456"
+              height="570"
+              src="./assets/img/gallery/galery-8.jpg"
+            />
+            <img
+              alt="galery 11"
+              width="456"
+              height="292"
+              src="./assets/img/gallery/galery-11 (2).jpg"
+            />
+          </div>
+          <div class="gallery__block">
+            <img
+              alt="galery 3"
+              width="456"
+              height="570"
+              src="./assets/img/gallery/galery-3.jpg"
+            />
+            <img
+              alt="galery 6"
+              width="456"
+              height="456"
+              src="./assets/img/gallery/galery-6.jpg"
+            />
+            <img
+              alt="galery 9"
+              width="456"
+              height="456"
+              src="./assets/img/gallery/galery-9 (2).jpg"
+            />
+            <img
+              alt="galery 12"
+              width="456"
+              height="342"
+              src="./assets/img/gallery/galery-12.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer container">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img src="assets/svg/Logo.svg" alt="logo" class="logo" />
+            <p>LOUVRE</p>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#visiting">Visiting</a>
+              </li>
+              <li>
+                <a href="#explore">Explore</a>
+              </li>
+              <li>
+                <a href="#video">Video</a>
+              </li>
+            </ul>
+              <ul>
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="#">Tickets</a>
+              </li>
+              <li>
+                <a href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__social-media">
+          <img alt="YouTube" src="./assets/img/footer/YouTube.png" />
+          <img alt="Instagram" src="./assets/img/footer/Instagram.png" />
+          <img alt="Facebook" src="./assets/img/footer/Facebook.png" />
+          <img alt="Twitter" src="./assets/img/footer/Twitter.png" />
+          <img alt="Pinterest" src="./assets/img/footer/Pinterest.png" />
+        </div>
+      </div>
+      <hr />
+      <div class="container footer__copyright">
+        <p>© 2021</p>
+        <p>The Rolling Scopes School</p>
+        <p>Marina Myssak</p>
+      </div>
+    </footer>
+  </body>
+</html>
