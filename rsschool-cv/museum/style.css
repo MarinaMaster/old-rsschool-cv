@@ -181,10 +181,10 @@ section {
 	border-radius: 10px;
 	margin-top: 75px;
 }
-
+/*Секция 2*/
 .virtual-tour {
   padding-top: 74px;
-  padding-bottom: 75px;
+  padding-bottom: 265px;
 }
 
 .wrapper-ful{
@@ -283,34 +283,64 @@ hr{
 .top__card:hover::after{
 	width: 440px;
 }
-
-.explore{
-  background-color: black;
-  padding-bottom: 75px;
-}
-
-.explore .explore__section {
-  padding-top: 90px;
-  display: grid;
-  grid-template-columns: 660px 720px;
-  grid-gap: 0px 60px;
-}
-
-.explore .explore__content {
+/*Секция 3*/
+.explore {
 	display: flex;
-	margin-top: 150px;
+	height: 865px;
+	justify-content: center;
+	padding-top: 75px;
+	align-items: center;
+	background-color:#000;
 }
 
-.title__explore{
+.explore__section {
 	display: flex;
-	flex-direction: column;
+	height: 715px;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
-.title__explore h1 {
+.explore__content {
+	height: 715px;
+	width: 660px;
+	margin-right: 60px;
 	color: #fff;
-	font-family: 'Forum', serif;
+}
+
+.explore__content .explore__title{
+	display: flex;
+	flex-direction: row;
 	font-size: 80px;
-	line-height: 90px;
 	letter-spacing: 5px;
+	font-family: 'Forum', serif;
+	line-height: 90px;
+	font-weight: 200;
+	margin-top: 0px;
 	text-transform: uppercase;
 }
+
+.after_explore__title {
+	margin-top:25px;
+	margin-bottom:75px;
+
+}
+.explore__content  p {
+	margin-top: 25px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	line-height: 38px;
+	font-size: 22px;
+}
+
+.explore__content span {
+	color: #9D8665;
+}
+
+.explore__section  img {
+	height: 700px;
+	width: 720px;
+	margin-top: 15px;
+	
+}
+/*четвёртая секция*/
