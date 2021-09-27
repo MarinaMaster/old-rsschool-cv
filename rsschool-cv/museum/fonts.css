@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Forum";
+	font-weight: 400;
+	url("./assets/fonts/Forum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-weight: 100;
+	url("./assets/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-weight: 300;
+	url("./assets/fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-weight: 400;
+	url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-weight: 500;
+	url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-weight: 700;
+	url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-weight: 900;
+	url("./assets/fonts/Roboto-Black.ttf") format("truetype");
+}
